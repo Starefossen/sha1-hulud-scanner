@@ -1,0 +1,25 @@
+{
+  "name": "sha1-hulud-scan-script",
+  "version": "1.0.0",
+  "description": "Provisorisk script for å scanne utviklerklienter for Sha1-hulud sårbarheter",
+  "main": "index.js",
+  "bin": {
+    "sha1-hulud-scan": "./scan.sh"
+  },
+  "scripts": {
+    "scan": "bash scan.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "security",
+    "vulnerability",
+    "scanner",
+    "sha1-hulud"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "files": [
+    "scan.sh"
+  ]
+}
