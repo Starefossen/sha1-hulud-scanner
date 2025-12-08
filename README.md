@@ -11,7 +11,15 @@ Dette scriptet skanner hele filsystemet for følgende potensielt sårbare filer 
 
 ## Bruk
 
-### Kjør direkte fra GitHub med npx
+### Kjør direkte fra GitHub
+
+med curl:
+
+```bash
+curl https://raw.githubusercontent.com/navikt/sha1-hulud-scanner/refs/tags/v0.4/scan.sh | bash
+```
+
+eller med npx:
 
 ```bash
 npx github:navikt/sha1-hulud-scanner#v0.4
