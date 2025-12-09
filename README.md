@@ -25,6 +25,16 @@ eller med npx:
 npx github:navikt/sha1-hulud-scanner#v0.4
 ```
 
+## macOS
+
+For optimal ytelse på macOS, installer GNU findutils:
+
+```bash
+brew install findutils
+```
+
+Dette gir `gfind` som scriptet automatisk bruker hvis tilgjengelig. Scriptet fungerer også uten, men kan være tregere.
+
 ## Hva skjer når scriptet kjører?
 
 1. **Skanning**: Scriptet søker gjennom hele filsystemet (`/`) etter de filene og mappene som er tydelige indikatorer på en infisert utviklerklient.
